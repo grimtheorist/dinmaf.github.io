@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+
+:root {
+--base-color: #2f2e30;
+--text-color: #f3ebeb;
+--primary-color: #7272ec;
+--secondary-color: #ffc06e;
+--color-1: #f9f6f3;
+--color-2: #f3f7f9;
+--color-3: #f6f3f9;
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+html{
+    font-family: Arimo, Helvetica, sans-serif, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--text-color);
+
+}
+
+h1{
+    padding-top: 1em;
+}
+
+
+body{
+    padding: 1em;
+    background-color: var(--base-color);
+    max-width: 100%;
+}
+
+nav{
+    margin: 1em auto 1em auto;
+    width: 100%
+}
+
+nav ul{
+    display:inline-flex;
+    list-style-type: none;
+    gap: 2em;
+}
+
+nav li{
+    width:25%
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+.cta-button {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: var(--primary-color);
+    padding: .75em 1.25em;
+    border-radius: .5em;
+    font-weight: 600;
+    width: 10%;
+}
+
+p{
+   padding-top: 1em;
+   max-width: 600px;
+}
